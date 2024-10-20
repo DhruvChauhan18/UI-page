@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haze Community Dashboard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Side (Login Section) -->
+      <div class="login-section">
+        <div class="logo">
+          <h1>HAZE.</h1>
+        </div>
+        
+        <h2>Hi there!</h2>
+        <p>Welcome to Haze. Community Dashboard</p>
+        <button class="google-login">
+            <img class="google-icon" src="images/google.png" alt="">
+                         Log in with Google
+                        </button>
+        <p class="or">or</p>
+        <form>
+          <input type="email" placeholder="Your email" required />
+          <input type="password" placeholder="Password" required />
+          <a href="#" class="forgot-password">Forgot password?</a>
+          <button type="submit">Log In</button>
+        </form>
+        <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
+      </div>
+
+      <!-- Right Side (Image Slider Section) -->
+      <div class="slider-section">
+        
+        <div class="top-right-buttons">
+          <a href="#" class="signup-slide">Sign Up</a>
+          <a href="#" class="join-us-slide">Join Us</a>
+        </div>
+        <div class="image-section">
+           <div class="caption">
+                  <h3>Go anywhere you want in a Galaxy full of wonders!</h3>
+                </div>
+          <div class="slider">
+
+            <div class="slides">
+              <div class="slide active">
+                <img
+                  src="https://th.bing.com/th/id/OIP.Lek-H9YfuunqGNi7oaxpLgAAAA?rs=1&pid=ImgDetMain"
+                  alt="Astronaut Image 1"
+                />
+                
+              </div>
+              <div class="slide">
+                <img
+                  src="https://th.bing.com/th/id/OIP.-8psc6GS_f_C-8oe4EqQJwHaKL?rs=1&pid=ImgDetMain"
+                  alt="Astronaut Image 2"
+                />
+                <!-- <div class="caption">
+                  <h3>Explore the universe with us!</h3>
+                </div> -->
+              </div>
+              <div class="slide">
+                <img
+                  src="https://archziner.com/wp-content/uploads/2020/02/astronaut-in-the-middle-of-space-space-wallpaper-hd-planets-around-him-sky-filled-with-stars.jpg"
+                  alt="Astronaut Image 3"
+                />
+                <!-- <div class="caption">
+                  <h3>Join the largest space community!</h3>
+                </div> -->
+              </div>
+            </div>
+            <!-- Navigation Buttons -->
+          </div>
+          <div class="bottom-buttons">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
